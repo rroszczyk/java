@@ -1,0 +1,15 @@
+Utworzyć klasy
+
+Pojazd (kolor, prędkość, )
+    Osobowy (ilość drzwi)
+        Fiat
+        Skoda
+        Opel
+    Autobus (ilość pasażerów)
+        Ikarus
+    Ciezarowy (ładowność)
+        Star
+        Iveco
+    Motocykl (kufer)
+        Honda
+        Kawasaki
