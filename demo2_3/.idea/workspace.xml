@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d53c29bc-f222-401e-88cd-61beebbc21e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo3_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CubeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnakeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZooMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/animal/Elephant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/animal/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/auta/Osobowy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/auta/Pojazd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/auta/osobowe/Fiat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/java/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/roszczyk/java/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zadanie.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NYfHPa3gbmCsIfsnjZiUrB12VJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ZooMain">
+    <configuration name="AnimalMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AnimalMain" />
+      <module name="demo3_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CubeMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="CubeMain" />
+      <module name="demo3_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PersonMain" />
+      <module name="demo3_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakeMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SnakeMain" />
+      <module name="demo3_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ZooMain" />
+      <module name="demo3_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PersonMain" />
+      <item itemvalue="Application.SnakeMain" />
+      <item itemvalue="Application.CubeMain" />
+      <item itemvalue="Application.AnimalMain" />
+      <item itemvalue="Application.ZooMain" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d53c29bc-f222-401e-88cd-61beebbc21e1" name="Changes" comment="" />
+      <created>1679845847923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679845847923</updated>
+    </task>
+    <servers />
+  </component>
+</project>
