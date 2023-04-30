@@ -6,7 +6,7 @@ public class Factory {
             return new VideoCard();
 
         if (name.contains("network"))
-            return new NetowrkCard();
+            return new NetworkCard();
 
         return null;
     }

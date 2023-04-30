@@ -9,7 +9,7 @@ public class Main {
         ComputerPart cp;
         List<ComputerPart> parts = new ArrayList<>();
 
-        factory.addInstruction(new NetworkCardInstruction());
+        factory.addInstruction(new NetworkCardInstruction(), "intel", "coś", 7, 43);
         factory.addInstruction(new VideoCardInstruction());
         factory.addInstruction(new HardDisc());
 

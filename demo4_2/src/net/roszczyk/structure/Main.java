@@ -1,5 +1,6 @@
 package net.roszczyk.structure;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 

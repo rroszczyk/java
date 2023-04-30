@@ -3,7 +3,7 @@ package net.roszczyk.factory2;
 public class HardDisc extends ComputerPart implements InstructionComputerPart {
     @Override
     public void doSomething() {
-        System.out.println("Inicjiuje dysk twardy");
+        System.out.println("Inicjuje dysk twardy");
     }
 
     @Override
@@ -22,7 +22,7 @@ public class HardDisc extends ComputerPart implements InstructionComputerPart {
     }
 
     @Override
-    public ComputerPart getInstance() {
+    public ComputerPart getInstance(Object... o) {
         return new HardDisc();
     }
 }

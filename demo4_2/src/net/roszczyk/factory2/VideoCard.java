@@ -13,6 +13,6 @@ public class VideoCard extends ComputerPart {
 
     @Override
     public String run(String name) {
-        return "Inicjiuję interfejs karty Video: " + name;
+        return "Inicjuję interfejs karty Video: " + name;
     }
 }

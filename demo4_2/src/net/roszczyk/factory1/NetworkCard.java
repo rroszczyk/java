@@ -1,9 +1,9 @@
 package net.roszczyk.factory1;
 
-public class VideoCard extends ComputerPart {
+public class NetworkCard extends ComputerPart {
     @Override
     public void doSomething() {
-        System.out.println("Uruchamiam kartę Video");
+        System.out.println("Uruchamiam kartę sieciową");
     }
 
     @Override
@@ -13,6 +13,6 @@ public class VideoCard extends ComputerPart {
 
     @Override
     public String run(String name) {
-        return "Inicjuję interfejs karty Video: " + name;
+        return "Inicjuję interfejs karty Sieciowej: " + name;
     }
 }

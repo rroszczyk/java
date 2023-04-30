@@ -7,7 +7,7 @@ public class VideoCardInstruction implements InstructionComputerPart {
     }
 
     @Override
-    public ComputerPart getInstance() {
+    public ComputerPart getInstance(Object... o) {
         return new VideoCard();
     }
 }

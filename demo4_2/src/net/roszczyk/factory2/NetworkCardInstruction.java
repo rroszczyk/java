@@ -7,7 +7,7 @@ public class NetworkCardInstruction implements InstructionComputerPart {
     }
 
     @Override
-    public ComputerPart getInstance() {
-        return new NetowrkCard();
+    public ComputerPart getInstance(Object... o) {
+        return new NetworkCard((String)o[0]);
     }
 }
