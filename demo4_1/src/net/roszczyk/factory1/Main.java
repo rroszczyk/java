@@ -1,4 +1,8 @@
 package net.roszczyk.factory1;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public Part getPartByName(String name) {
         if (name.contains("disc"))
@@ -11,10 +15,15 @@ public class Main {
     }
     public static void main(String[] args) {
         Main program = new Main();
+        List<Part> parts = new ArrayList<>();
 
-        Part part = program.getPartByName("mainboard");
+        parts.add(program.getPartByName("mainboard"));
+        parts.add(program.getPartByName("memory"));
+        parts.add(program.getPartByName("disc"));
 
-        System.out.println(part.getPrimaryInterface());
-        System.out.println(part.connectToInterface("sata"));
-    }
+        for (Part p : parts)
+        {
+            p.connectToInterface(p.getPrimaryInterface());
+        }
+     }
 }
