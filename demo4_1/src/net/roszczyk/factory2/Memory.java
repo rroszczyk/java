@@ -8,6 +8,6 @@ public class Memory extends Part {
 
     @Override
     public String connectToInterface(String name) {
-        return "podłączono interfejs soDimm";
+        return "Podłączono pamięć przy użyciu interfejsu:" + name;
     }
 }

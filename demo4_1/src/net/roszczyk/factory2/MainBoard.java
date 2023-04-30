@@ -8,7 +8,7 @@ public class MainBoard extends Part implements IPart {
 
     @Override
     public String connectToInterface(String name) {
-        return "płyta główna ma wiele interfejsów";
+        return "Płyta główna ma wiele interfejsów do których podłączamy komponenty";
     }
 
     @Override

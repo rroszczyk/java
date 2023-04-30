@@ -8,7 +8,7 @@ public class Disc extends Part implements IPart {
 
     @Override
     public String connectToInterface(String name) {
-        return "podłączono do interfesju: " + name;
+        return "Podłączono dysk przy użyciu interfesju: " + name;
     }
 
     @Override
