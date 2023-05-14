@@ -1,6 +1,7 @@
 package net.roszczyk.sample5;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,10 +18,17 @@ public class Main {
 
         System.out.println(pq);
 
+        List<Uczen> uczniowie = pq.stream().map(s -> new Uczen(s.imie, s.nazwisko, s.indeks)).collect(Collectors.toList());
+        PriorityQueue<Uczen> pq1 = new PriorityQueue<>(uczniowie);
+
+        System.out.println("*** Kolejka studentów ***");
         while (!pq.isEmpty()) {
             System.out.println(pq.poll());
         }
 
-        
+        System.out.println("*** Kolejka uczniów ***");
+        while (!pq1.isEmpty()) {
+            System.out.println(pq1.poll());
+        }
     }
 }
