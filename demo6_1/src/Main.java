@@ -17,6 +17,20 @@ public class Main {
         tree.insert(535);
         tree.insert(500);
 
-        tree.displayAsc();
+        System.out.println("(" + tree.getElements() + ")");
+        System.out.println("(" + tree.getElementsAsc() + ")");
+        System.out.println("(" + tree.getElementsDsc() + ")");
+
+        if (tree.search(54) != null)
+        {
+            System.out.println("Ok");
+        }
+
+        System.out.println(tree.getSize());  // 10
+        System.out.println(tree.getMin());   // 54
+        System.out.println(tree.getMax());   // 874
+
+        tree.insert(100);
+        System.out.println(tree.getSize());  // 11
     }
 }
