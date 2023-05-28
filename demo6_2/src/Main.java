@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
         Tree tree = new Tree();
 
-        tree.insert(100);
-        tree.insert(43);
-        tree.insert(53);
-        tree.insert(134);
-        tree.insert(93);
-        tree.insert(2);
-        tree.insert(112);
-        tree.insert(45);
+        tree.insertR(100);
+        tree.insertR(43);
+        tree.insertR(53);
+        tree.insertR(134);
+        tree.insertR(93);
+        tree.insertR(2);
+        tree.insertR(112);
+        tree.insertR(45);
 
         tree.display();
         tree.displayAsc();

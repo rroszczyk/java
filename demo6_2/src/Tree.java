@@ -5,8 +5,17 @@ public class Tree {
         root = null;
     }
 
-    public Node insert(Integer value)
-    {
+    public Node insertR(Integer value) {
+        return (root == null)?(root = new Node(value)):insertR(this.root, value);
+    }
+    private Node insertR(Node root, Integer value) {
+        if (value > root.value) {
+            return (root.right != null)?insertR(root.right, value):(root.right = new Node(value));
+        } else {
+            return (root.left != null)?insertR(root.left, value):(root.left = new Node(value));
+        }
+    }
+    public Node insert(Integer value) {
         Node node = new Node(value);
 
         if (root == null) {
@@ -32,10 +41,12 @@ public class Tree {
             }
         }
     }
+
     public void display() {
         display(this.root);
         System.out.println();
     }
+
     private void display(Node root) {
         if (root != null) {
             System.out.print(root.value + " ");
@@ -43,10 +54,12 @@ public class Tree {
             display(root.right);
         }
     }
+
     public void displayAsc() {
         displayAsc(this.root);
         System.out.println();
     }
+
     private void displayAsc(Node root) {
         if (root != null) {
             displayAsc(root.left);
@@ -54,10 +67,12 @@ public class Tree {
             displayAsc(root.right);
         }
     }
+
     public void displayDsc() {
         displayDsc(this.root);
         System.out.println();
     }
+
     private void displayDsc(Node root) {
         if (root != null) {
             displayDsc(root.right);
@@ -65,9 +80,11 @@ public class Tree {
             displayDsc(root.left);
         }
     }
+
     public Integer getMin() {
         return getMin(this.root);
     }
+
     public Integer getMin(Node root) {
         if (root != null) {
             if (root.left != null) {
@@ -77,9 +94,11 @@ public class Tree {
         }
         return 0;
     }
+
     public Integer getMax() {
         return getMax(this.root);
     }
+
     public Integer getMax(Node root) {
         if (root != null) {
             if (root.right != null) {
@@ -89,9 +108,11 @@ public class Tree {
         }
         return 0;
     }
+
     public Node contains(Integer value) {
         return contains(this.root, value);
     }
+
     private Node contains(Node root, Integer value) {
         if (root != null) {
             if (root.value == value) {
